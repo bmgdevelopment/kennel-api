@@ -1,67 +1,121 @@
 {
-    "animals": [
-        {
-            "id": 1,
-            "name": "Doodles",
-            "breed": "Poodle",
-            "customerId": 1,
-            "locationId": 2
-        },  
-        {
-            "id": 2,
-            "name": "Jeekin",
-            "breed": "Short Hair Cat",
-            "customerId": 2,
-            "locationId": 3
-        },
-        {
-            "id": 3,
-            "name": "Seaklo",
-            "breed": "Scottish Cat",
-            "customerId": 3,
-            "locationId": 1
-        },  
-        {
-            "id": 4,
-            "name": "Mr. Yumnum",
-            "breed": "Pug",
-            "customerId": 2,
-            "locationId": 3
-        }
-    ],
-    "customers": [
-        {
-            "id": 1,
-            "name": "Hannah Hall",
-            "address": "7002 Chestnut Ct"
-        },
-        {
-            "id": 2,
-            "name": "Seth Jehnil",
-            "address": "892 Moon Way"
-        },
-        {
-            "id": 3,
-            "name": "Wilen Uehsen",
-            "address": "1037 Hiwnon Lane"
-        }
-    ],
-    "employees": [],
-    "locations": [
-        {
-            "id": 1,
-            "name": "Nashville North",
-            "address": "8422 Johnson Pike"
-        },
-        {
-            "id": 2,
-            "name": "Nashville South",
-            "address": "209 Emory Drive"
-        },
-        {
-            "id": 3,
-            "name": "The Gulch",
-            "address": "6382 Mielgs Street"
-        }
-    ]
+  "animals": [
+    {
+      "id": 1,
+      "name": "Doodles",
+      "breed": "Poodle",
+      "customerId": 1,
+      "employeeId": 1,
+      "locationId": 2
+    },
+    {
+      "id": 2,
+      "name": "Jeekin",
+      "breed": "Short Hair Cat",
+      "customerId": 2,
+      "employeeId": 4,
+      "locationId": 1
+    },
+    {
+      "id": 3,
+      "name": "Seaklo",
+      "breed": "Scottish Cat",
+      "customerId": 3,
+      "employeeId": 2,
+      "locationId": 1
+    },
+    {
+      "id": 4,
+      "name": "Mr. Yumnum",
+      "breed": "Pug",
+      "customerId": 2,
+      "employeeId": 3,
+      "locationId": 2
+    },
+    {
+      "name": "Kensu",
+      "breed": "House Cat",
+      "locationId": 2,
+      "customerId": 2,
+      "id": 5
+    },
+    {
+      "name": "Betsy",
+      "breed": "Golden Doodle",
+      "locationId": 2,
+      "customerId": 3,
+      "id": 6
+    },
+    {
+      "name": "Jazz",
+      "breed": "Aussie Doodle",
+      "locationId": 2 ,
+      "customerId": 1,
+      "id": 7
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Hannah Hall",
+      "address": "7002 Chestnut Ct",
+      "animalId": 1
+    },
+    {
+      "id": 2,
+      "name": "Seth Jehnil",
+      "address": "892 Moon Way",
+      "animalId": 2
+    },
+    {
+      "id": 3,
+      "name": "Wilen Uehsen",
+      "address": "1037 Hiwnon Lane",
+      "animalId": 3
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Jeremy Bakers",
+      "locationId": 1
+    },
+    {
+      "id": 2,
+      "name": "Sally Wood",
+      "locationId": 1
+    },
+    {
+      "id": 3,
+      "name": "Carma Redd",
+      "locationId": 2
+    },
+    {
+      "id": 4,
+      "name": "Ignatius Salvarez",
+      "locationId": 2
+    },
+    {
+      "name": "Brittany Garrett",
+      "locationId": 2,
+      "id": 5
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville North",
+      "address": "500 Puppy Way"
+    },
+    {
+      "id": 2,
+      "name": "Nashville South",
+      "address": "2092 Pawprint Drive"
+    },
+    {
+      "name": "Nashville East",
+      "address": "7294 Eilems Road",
+      "id": 3
+    }
+  ]
 }
