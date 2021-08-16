@@ -6,7 +6,7 @@
       "breed": "Poodle",
       "customerId": 1,
       "employeeId": 1,
-      "locationId": 2
+      "locationId": 3
     },
     {
       "id": 2,
@@ -35,7 +35,7 @@
     {
       "name": "Kensu",
       "breed": "House Cat",
-      "locationId": 2,
+      "locationId": 3,
       "customerId": 2,
       "id": 5
     },
@@ -79,8 +79,8 @@
     {
       "id": 4,
       "name": "Brittany Garrett",
-      "address" : "3720 Semeway Road",
-      "animalId" : 1,
+      "address": "3720 Semeway Road",
+      "animalId": 7,
       "email": "brittanygarrett@me.com"
     }
   ],
@@ -107,7 +107,7 @@
     },
     {
       "name": "Brittany Garrett",
-      "locationId": 2,
+      "locationId": 3,
       "id": 5
     }
   ],
