@@ -5,23 +5,20 @@
       "name": "Doodles",
       "breed": "Poodle",
       "customerId": 1,
-      "employeeId": 1,
       "locationId": 3
     },
     {
       "id": 2,
-      "name": "Jeekin",
-      "breed": "Short Hair Cat",
-      "customerId": 2,
-      "employeeId": 4,
-      "locationId": 1
+      "name": "Jester",
+      "breed": "Alley Cat",
+      "locationId": 1,
+      "customerId": 2
     },
     {
       "id": 3,
       "name": "Seaklo",
       "breed": "Scottish Cat",
       "customerId": 3,
-      "employeeId": 2,
       "locationId": 1
     },
     {
@@ -29,15 +26,14 @@
       "name": "Mr. Yumnum",
       "breed": "Pug",
       "customerId": 2,
-      "employeeId": 3,
       "locationId": 2
     },
     {
-      "name": "Kensu",
+      "id": 5,
+      "name": "Kensumu",
       "breed": "House Cat",
       "locationId": 3,
-      "customerId": 2,
-      "id": 5
+      "customerId": 2
     },
     {
       "name": "Betsy",
@@ -52,6 +48,20 @@
       "locationId": 2,
       "customerId": 1,
       "id": 7
+    },
+    {
+      "id": 8,
+      "name": "Paupau",
+      "breed": "Boxer Mix",
+      "locationId": 3,
+      "customerId": 4
+    },
+    {
+      "id": 9,
+      "name": "Dinkly",
+      "breed": "Shih Tzu Poodle",
+      "locationId": 3,
+      "customerId": 4
     }
   ],
   "customers": [
@@ -87,8 +97,8 @@
   "employees": [
     {
       "id": 1,
-      "name": "Jeremy Bakers",
-      "locationId": 1
+      "name": "Jeremy Bakerson",
+      "locationId": 2
     },
     {
       "id": 2,
@@ -97,7 +107,7 @@
     },
     {
       "id": 3,
-      "name": "Carma Redd",
+      "name": "Carma Reddy",
       "locationId": 2
     },
     {
@@ -109,6 +119,11 @@
       "name": "Brittany Garrett",
       "locationId": 3,
       "id": 5
+    },
+    {
+      "name": "John Smith",
+      "locationId": 3,
+      "id": 6
     }
   ],
   "locations": [
@@ -126,6 +141,11 @@
       "name": "Nashville East",
       "address": "7294 Eilems Road",
       "id": 3
+    },
+    {
+      "id": 4,
+      "name": "TESTing",
+      "address": "123 FAKE ST"
     }
   ]
 }
